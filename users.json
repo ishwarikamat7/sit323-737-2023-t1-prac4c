@@ -1,0 +1,17 @@
+[
+    { 
+      "name": "admin", 
+      "password": "admin",
+      "email": "admin@xyz.com"
+    },
+    {
+       "name": "ishwari",
+       "password": "ish@123",
+       "email": "ishwari@abc.com"
+    },
+    {
+      "name": "utkarsha",
+      "password": "uma@123",
+      "email": "utkarsha@pqr.com"
+   }
+]
