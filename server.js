@@ -28,7 +28,7 @@ var tokenKey = ""
   });
 
   // Authorization using jwt.verify
-  app.get("/super-secure-resource", (req, res) => {
+  app.get("/private-resource", (req, res) => {
     if (!req.headers.authorization) {
       return res.status(401).json({ error: "Not Authorized" });
     }
@@ -39,7 +39,7 @@ var tokenKey = ""
       // Verify the token is valid
       const { user } = jwt.verify(token, tokenKey);
       return res.status(200).json({
-        message: `Congrats ${user}! You can now accesss the super secret resource`,
+        message: `Congrats ${user}! You can now accesss the private resource`,
       });
     } catch (error) {
       return res.status(401).json({ error: "Not Authorized" });
