@@ -11,9 +11,12 @@
     "author": "Ishwari Kamat",
     "license": "MIT",
     "dependencies": {
+        "body-parser": "^1.20.2",
         "dotenv": "^16.0.3",
         "express": "^4.17.3",
         "jsonwebtoken": "^9.0.0",
-        "nodemon": "^2.0.15"
+        "nodemon": "^2.0.15",
+        "passport": "^0.6.0",
+        "passport-jwt": "^4.0.1"
     }
 }
